@@ -1,0 +1,236 @@
+*, 
+*:before 
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: red;
+  overflow-x: hidden;
+
+
+}
+
+/*====Container====*/
+
+.container {
+  width: 100vw;
+  display: flex;
+ 
+}
+
+/*====Aside====*/
+
+aside {
+
+  background: #000066;
+  border-right: #003399 solid 10px; 
+  width: 33.3%;
+  padding: 10px 40px;
+  text-align: left;
+}
+
+
+
+img {
+
+  width: 200px;
+  height: 200px;
+  border: solid 5px #003399;
+  border-radius: 50%;
+}
+
+
+aside div h2 {
+  background: #003399;
+  color: #fff;
+  padding: 10px;
+  margin-top: 70px;
+}
+
+
+aside div p {
+
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 15px;
+  
+}
+
+
+.skillContainer {
+  margin-top: -5px;
+  width: 100%;
+  background: #003399;
+  margin-left: 15px;
+}
+
+
+.skill {
+
+  padding: 1px;
+  text-align: right;
+  color: #000;
+ 
+}
+
+.ps {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 90%;
+  background-color: #fff;
+  
+}
+
+#ps {
+  margin-bottom: 7px;
+}
+
+.ai {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 65%;
+  background-color: #fff;
+}
+
+.ae {
+
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 75%;
+  background-color: #fff;
+
+}
+
+.pr {
+
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 80%;
+  background-color: #fff;
+}
+
+.xd {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 90%;
+  background-color: #fff;
+}
+
+.cdr {
+
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 90%;
+  background-color: #fff;
+
+}
+
+.html {
+
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 50%;
+  background-color: #fff;
+}
+
+.ms {
+
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 70%;
+  background-color: #fff;
+}
+
+.wp {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 90%;
+  background-color: #fff;
+}
+
+
+/*====Container====*/
+
+section {
+
+  background: lightgray;
+  width: 66.6%;
+  padding: 10px 40px;
+}
+
+
+
+
+/*=====Mobile====*/
+
+@media screen and (max-width: 767px) {
+
+
+  
+  aside {
+
+    background: #000066;
+    border-right: #003399 solid 10px; 
+    width: 20%;
+    padding: 10px 10px;
+    text-align: left;
+  }
+    
+  
+  img {
+  
+    width: 120px;
+    height: 120px;
+    border: solid 5px #003399;
+    border-radius: 50%;
+  }
+
+  aside div h2 {
+    background: #003399;
+    color: #fff;
+    padding: 5px;
+    margin-top: 70px;
+    font-size: 18px;
+  }
+
+  aside div p {
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 2px;
+    
+  }
+
+  .skillContainer {
+    margin-top: -5px;
+    width: 100%;
+    background: #003399;
+    margin-left: 0;
+  }
+
+
+
+
+
+
+  
+  section {
+  
+    background: lightgray;
+
+    width: 80%;
+    
+  }
+  
+
+ 
+  
+}
